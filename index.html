@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/RESET.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body class="grid-container">
+    <header class="header">
+        <h1>Eric Dolly's Notebook</h1>
+        <section class="social">
+            <a href="https://www.facebook.com/dev.dollinger" alt="My Facebook Page" target="_blank"><i
+					class="fab fa-facebook-square fa-5x"></i></a>
+            <a href="https://github.com/edolly2" alt="My GitHub Page" target="_blank"><i
+					class="fab fa-github-square fa-5x"></i></a>
+            <a href="https://stackexchange.com/users/20534397/edolly2" alt="My Stack Overflow Page" target="_blank"><i
+					class="fab fa-stack-overflow fa-5x"></i></a>
+            <a href="https://twitter.com/DevDollinger" alt="My Twitter Page" target="_blank"><i
+					class="fab fa-twitter-square fa-5x"></i></a>
+            <a href="https://www.linkedin.com/in/eric-dollinger-967876202/" alt="My Linkedin Page" target="_blank"><i
+					class="fab fa-linkedin fa-5x"></i></a>
+        </section>
+    </header>
+    <nav class="nav">
+        <div class="dropdown">
+            <button onclick="myFontFunction()" class="dropbtn1">Font Size<i class="fas fa-angle-down"></i></button>
+            <div id="fontDropdown" class="dropdown-font">
+                <ul>
+                    <li>10px</li>
+                    <li>12px</li>
+                    <li>14px</li>
+                    <li>16px</li>
+                    <li>18px</li>
+                    <li>20px</li>
+                    <li>24px</li>
+                    <li>28px</li>
+                    <li>30px</li>
+                    <li>32px</li>
+                    <li>36px</li>
+                    <li>40px</li>
+                    <li>48px</li>
+                    <li>60px</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myColorFunction()" class="dropbtn2">Font Color<i class="fas fa-angle-down"></i></button>
+            <div id="colorDropdown" class="dropdown-color">
+                <ul>
+                    <li>Black</li>
+                    <li>Gray</li>
+                    <li>Blue</li>
+                    <li>Green</li>
+                    <li>Purple</li>
+                    <li>Red</li>
+                    <li>Pink</li>
+                    <li>Orange</li>
+                    <li>Yellow</li>
+                    <li>White</li>
+                </ul>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="myTypeFunction()" class="dropbtn3">Note Type<i class="fas fa-angle-down"></i></button>
+            <div id="typeDropdown" class="dropdown-type">
+                <ul>
+                    <li>Text Document</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JS</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <form class="text">
+            <label for="note">:</label>
+            <textarea id="note" name="note" rows="30" cols="60">
+
+						</textarea>
+            <br><br>
+            <button class="save">Save Document</button>
+        </form>
+    </main>
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>
